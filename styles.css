@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-image: url("peoples\ \(1\).jpg");
+    background-size: cover;
+    color: red;
+    font-family: 'Rubik Marker Hatch', cursive;
+    height: 100%;
+}
+
+.container {
+    max-width: 30%;
+    border: 3px solid black;
+    margin: 140px auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+button{
+    margin: 0 auto 5px auto;
+    color: white;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+
+
+
+}
+
+p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#increment-btn{
+    background-color: darkred;
+
+}
+
+#decrement-btn{
+    background-color: green;
+}
+
+#reset-btn{
+    background-color: #2C2891;
+}
+
+#save-btn{
+    background-color: orange;
+}
